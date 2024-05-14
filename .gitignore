@@ -1,0 +1,13 @@
+# Virtual env
+.venv
+main-venv/
+
+# Python bytecode files
+__pycache__/
+
+# Vistual studio code
+.vscode
+
+# Jupiter
+.ipynb_checkpoints
+
