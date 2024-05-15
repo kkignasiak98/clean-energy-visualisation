@@ -3,3 +3,4 @@ pandas
 matplotlib
 plotly
 ipykernel
+nbformat>=4.2.0
