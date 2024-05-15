@@ -32,12 +32,14 @@
     # Workspace lifecycle hooks
     workspace = {
       # Runs when a workspace is first created
+      # It might not work if you want to rebuild it along the way.
       onCreate = {
          virtual_env = "python3 -m venv main-venv";
       };
       onStart = {
-        # Example: start a background task to watch and re-build backend code
-        # watch-backend = "npm run watch-backend";
+          virtual_env = "python3 -m venv main-venv";
+          install_python_packages = "source main-venv/bin/activate && pip install -r requirements.txt";
+          
       };
     };
   };
