@@ -19,6 +19,8 @@
        "ms-toolsai.jupyter"
        "codeium.codeium"
        "ms-python.python"
+       "aaron-bond.better-comments"
+       "eamodio.gitlens"
        
     ];
 
