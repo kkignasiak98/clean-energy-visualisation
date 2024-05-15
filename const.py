@@ -1,5 +1,6 @@
-# Geographic constans
-continents_names = ("World", 
+import plotly.express as px
+# Geographic constants
+CONTINENT_NAMES = ("World", 
                     "Europe",
                     "Africa",
                     "Asia Pacific",
@@ -9,7 +10,7 @@ continents_names = ("World",
                     "Middle East",
                     "North America",
                     "South America")
-country_of_europe_names = ("World", 
+EUROPEAN_COUNTRIES = ("World", 
                             "Europe",
                             "Austria",
                             "Belarus",
@@ -53,15 +54,15 @@ country_of_europe_names = ("World",
 
 # Visualisation
 
-plot_font_dict = dict(
+PLOT_FONT_DICT = dict(
     family="Arial",
     size=20,
     color='#000000'
 )
-plot_height = 800
-plot_width= 1400
+PLOT_HEIGHT = 800
+PLOT_WIDTH = 1400
 
-pastel_main = px.colors.qualitative.Pastel
-sequential = px.colors.sequential.algae
-colors_for_pie =['mediumturquoise', 'gold', 'darkorange', 'lightgreen']
-colour_dict_for_pie = dict(colors=colors_for_pie, line=dict(color='#000000', width=2))
+PASTEL_PALETTE_MAIN = px.colors.qualitative.Pastel
+SEQUENTIAL_PALETTE = px.colors.sequential.algae
+PIE_COLORS =['mediumturquoise', 'gold', 'darkorange', 'lightgreen']
+PIE_COLORS_DICT = dict(colors=PIE_COLORS, line=dict(color='#000000', width=2))
