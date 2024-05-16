@@ -4,3 +4,4 @@ matplotlib
 plotly
 ipykernel
 nbformat>=4.2.0
+ruff==0.4.4

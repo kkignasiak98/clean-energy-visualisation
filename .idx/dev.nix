@@ -21,6 +21,7 @@
        "ms-python.python"
        "aaron-bond.better-comments"
        "eamodio.gitlens"
+       "charliermarsh.ruff"
        
     ];
 
