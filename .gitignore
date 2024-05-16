@@ -1,6 +1,13 @@
+# Virtual env
 .venv
-.vscode
 main-venv/
 
-# Ignore Python bytecode files
+# Python bytecode files
 __pycache__/
+
+# Vistual studio code
+.vscode
+
+# Jupiter
+.ipynb_checkpoints
+
