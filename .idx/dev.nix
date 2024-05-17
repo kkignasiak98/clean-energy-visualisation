@@ -41,7 +41,8 @@
       };
       onStart = {
           virtual_env = "python3 -m venv main-venv";
-          install_python_packages = "source main-venv/bin/activate && pip install -r requirements.txt";
+          install_pip_tools = "pip install pip-tools==7.4.1";
+          install_python_packages = "source main-venv/bin/activate && pip install -r requirements/prod.txt";
           
       };
     };
