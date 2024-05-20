@@ -5,7 +5,7 @@ To work with this repository follow the steps below:
 1. Create python virtual environment `python3 -m venv main-venv`.
 2. Activate the virtual environment `source main-venv/bin/activate`.
 3. Install pip-tools `pip install pip-tools==7.4.1`.
-4. Install the requirements needed for production `pip install -r requirements/prod.txt`.
+4. Install the requirements needed for production `pip-sync requirements/prod.txt` (recommended) or `pip install -r requirements/prod.txt`.
 
 ## How to update dependencies
 All files connected to dependencies are located in `requirements` subfolder <br>
